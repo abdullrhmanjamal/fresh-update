@@ -11,7 +11,7 @@ import NotFound from  './Components/NotFound/NotFound'
 import Products from  './Components/Products/Products'
 import Regter from  './Components/Regster/Regster'
 import Login from  './Components/Login/Login'
-import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { Navigate, RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import { AuthProvider } from './Context/AuthContext';
 import ProductDetalis from './Components/ProductDetalis/ProductDetalis';
 import CategoriesDetalis from './Components/CategoriesDetalis/CategoriesDetalis';
@@ -20,7 +20,7 @@ import CheckOut from './Components/CheckOut/CheckOut';
 
 
 function App() {
-let routers= createBrowserRouter([
+let routers= createHashRouter([
   {path:'', element:<Layout/>, children:[
     {path:'', element: <Navigate to={'home'}/>},
     {path:'home',element:<Home/>},
