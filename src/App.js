@@ -16,6 +16,8 @@ import { AuthProvider } from './Context/AuthContext';
 import ProductDetalis from './Components/ProductDetalis/ProductDetalis';
 import CategoriesDetalis from './Components/CategoriesDetalis/CategoriesDetalis';
 import CheckOut from './Components/CheckOut/CheckOut';
+import Profile from './Components/Profile/Profile';
+import AllOrders from './Components/AllOrders/AllOrders';
 
 
 
@@ -33,6 +35,8 @@ let routers= createHashRouter([
     {path:'brands',element:<Brands/>},
     {path:'checkout/:id',element:<CheckOut/>},
     {path:'categoriesDetalis/:id',element:<CategoriesDetalis/>},
+    {path:'profile',element:<Profile/>},
+    {path:'allorders',element:<AllOrders/>},
     {path:'*',element:<NotFound/>}
     
   ]}])

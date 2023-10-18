@@ -45,6 +45,12 @@ export default function Navbar() {
                   <li className="nav-item">
                     <NavLink className="nav-link " to="/brands">Brands</NavLink>
                   </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link " to="/allorders">All Orders</NavLink>
+                  </li>
+                  <li className="nav-item">
+                    <NavLink className="nav-link " to="/profile">Profile</NavLink>
+                  </li>
                 </> : null}
 
               </ul>

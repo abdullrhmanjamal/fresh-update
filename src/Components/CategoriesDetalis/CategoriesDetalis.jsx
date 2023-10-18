@@ -39,7 +39,7 @@ setCategoriesDetalis(data.data)
       </div>
 
    </>:
-   <div className='row d-flex justify-content-center align-items-center  '>
+   <div className='row d-flex justify-content-center align-items-center vh-100  '>
 
    {categoriesDetalis && categoriesDetalis.map((catgory)=>{
    return <div key={catgory._id} className='col-md-3 mt-4 text-center bg-light  p-5 shadow mx-3'>

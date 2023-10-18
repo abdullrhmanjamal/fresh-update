@@ -77,6 +77,7 @@ a , a:hover {
     vertical-align: baseline;
     border-radius: var(--bs-badge-border-radius);
 }
+
     
 
 .navbar-nav .nav-link.active{

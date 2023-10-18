@@ -1,5 +1,5 @@
 {
-  "homepage": "https://abdullrhmanjamal.github.io/Fresh-Cart",
+  "homepage": "http://abdullrhmanjamal.github.io/fresh",
   "name": "train2",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "axios": "^1.5.0",
     "bootstrap": "^5.3.2",
     "formik": "^2.4.5",
+    "jwt-decode": "^3.1.2",
     "react": "^18.2.0",
     "react-detect-offline": "^2.4.5",
     "react-dom": "^18.2.0",

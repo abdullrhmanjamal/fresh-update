@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import { Offline, Online } from "react-detect-offline";
 import { Toaster } from 'react-hot-toast';
 import { CartCountContextProvider } from '../../Context/CartContext';
+import ScrollTop from '../ScrollTop';
 
 
 
@@ -21,6 +22,7 @@ export default function Layout() {
     <Footer/>
     
     <Offline>Your Offline (surprise!)</Offline>
+    <ScrollTop/>
 
     </CartCountContextProvider>
     
